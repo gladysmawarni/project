@@ -1,0 +1,13 @@
+[packages]
+flask 
+flask-sqlalchemy 
+psycopg2 
+psycopg2-binary 
+flask-session 
+javascript 
+gunicorn 
+
+
+
+[requires]
+python_version = "3.9"

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../static/styles.css" />
+    <title>Register</title>
+  </head>
+  <body>
+    <main class="container">
+      <h1 >Register</h1>  
+      <form action="/register" method="POST">
+        {% if message %} 
+          <p class="message">{{ message | safe }}</p>
+        {% endif %}
+          <div class="form-group">
+          <input name="id" class="form-control" type="text" autocomplete="off" placeholder="Username">
+          </div>
+          <div class="form-group">
+          <input name="pass" class="form-control" type="password" autocomplete="off" placeholder="Password">
+          </div>
+          <div class="form-group">
+          <input name="conf" class="form-control" type="password" autocomplete="off" placeholder="Re-enter password">
+          </div>
+          <button class="btn" value="submit" type="submit">Register</button>    
+      </form>
+      <p>Already have an account? <a href='/login'>Log in</a></p>
+
+    </main>
+
+    
+  </body>
+</html>

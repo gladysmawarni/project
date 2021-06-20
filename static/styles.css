@@ -1,0 +1,50 @@
+main {
+    overflow-x: auto;
+    text-align: center;
+    margin-top: 7em;
+}
+
+.container {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+}
+
+.form-control {
+    text-align: center;
+    width: 70%;
+    height: calc(2.2rem + 2px);
+    font-size: 1rem;
+    line-height: 1.5;
+    color: grey;
+    border: 1px solid #ced4da;
+}
+
+.btn {
+    width: 40%;
+    height: 2.2rem;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    background-color: darkslategrey;
+}
+
+
+input[type="password" i] {
+    -webkit-text-security: disc;
+}
+
+.message {
+	text-align: center;
+	padding: 5px;
+	margin-top: 2rem;
+}
+

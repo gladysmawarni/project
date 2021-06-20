@@ -1,0 +1,73 @@
+.bg-cover {
+    background-size: cover !important;
+}
+
+
+body {
+    min-height: 100vh;
+}
+
+.nav-item {
+    position:absolute;
+    right:10px;
+    top:-15px;
+ }
+
+ .nav-link {
+     color:floralwhite;
+ }
+
+ .nav-link:hover {
+     color:palegoldenrod;
+ }
+
+ .card {
+     max-width: 50rem;
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 2rem;
+     margin-bottom: 5rem;
+ }
+
+.tombol1 {
+    max-width: 50rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tombol2 {
+    display: inline-flex;
+    margin-top: 2rem;
+}
+
+
+#tanggal {
+    margin-right: 20rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 5px;
+    background-color: beige;
+    color: darkcyan;
+    font-family: monospace;
+}
+
+#tanggal2 {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 5px;
+    background-color: beige;
+    color: darkcyan;
+    font-family: monospace;
+}
+
+h4 {
+    font-family: monospace;
+    font-style: italic;
+}
+
+h2 {
+    font-family: monospace;
+}
+
