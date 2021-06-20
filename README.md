@@ -6,19 +6,19 @@ For the final project, i decided to build a web application using Flask, Python,
 I wrote the code in Visual Studio Code and i am using SQLalchemy and postgresql to manage the database.
 The purpose of the web app is to keep track of the task that one's need to be done.
 
-** register **
+### register
 The first page that i made is the registration page, to allow users to use the app individually and privately. By creating a table containing user id, username, and (hashed) password,
 anyone with a unique username can have their own homepage and create their own entries of to-do tasks.
 The registration page consists of a form of 3 fields for username, password, and password confirmation to make sure the user is entering the password they meant.
 By clicking the "register" button the data will be recorded in the database.
 After completing the form, the user is taken to their own homepage.
 
-** login **
+### login
 After the registration page, i build the login page for returning users. The log in page consists of a form of 2 fields, for username and password.
 If the username is not registered or the password is not correct, a message will be shown to inform the user.
 I used the flask_session to keep track of the logged user.
 
-** index/homepage **
+### index/homepage
 In the homepage, there will be a greeting based on the user's time (Good Morning, Good Afternoon, or Good Evening), followed by the logged-in user's username.
 It will also shows the date for today.
 I was considering to include the weather widget in the homepage, but it turns out locating the user's location and make a decent weather widget is harder than i tought,
@@ -32,9 +32,9 @@ When the task is completed, the user can click the "finished" button on the spec
 so I can filter out the finished task.
 The second button is to go to the history's page.
 
-** history **
+### history
 In the history page, the users can see the tasks that they had completed. It is also shown the date of when the task is finished (when the "finished" button is clicked).
 To go back to the homepage / to see the tasks that still need to be done, the user can click the "see all entries" button.
 
-** logout **
+### logout
 When the user is done, they can log out by simply clicking the "Log Out" button on the upper right corner of the website. Which will just clear the session.
