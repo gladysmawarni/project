@@ -1,5 +1,6 @@
 # cs50 final project 
-# yourtasktracker
+# task-tracker web application
+## link: https://tasktracker-py.herokuapp.com/
 #### Video Demo:  https://youtu.be/nNE5sQyyfBA
 #### Description:
 For the final project, i decided to build a web application using Flask, Python, HTML, CSS, and JavaScript.
@@ -13,10 +14,15 @@ The registration page consists of a form of 3 fields for username, password, and
 By clicking the "register" button the data will be recorded in the database.
 After completing the form, the user is taken to their own homepage.
 
+![image](https://user-images.githubusercontent.com/78975611/155982061-f16ea72d-e0eb-4b89-bb7b-e8f077473582.png)
+
+
 ### login
 After the registration page, i build the login page for returning users. The log in page consists of a form of 2 fields, for username and password.
 If the username is not registered or the password is not correct, a message will be shown to inform the user.
 I used the flask_session to keep track of the logged user.
+
+![image](https://user-images.githubusercontent.com/78975611/155981906-014001b0-cdcb-4b41-ab80-8b4278ec2b25.png)
 
 ### index/homepage
 In the homepage, there will be a greeting based on the user's time (Good Morning, Good Afternoon, or Good Evening), followed by the logged-in user's username.
