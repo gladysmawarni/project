@@ -14,7 +14,8 @@ The registration page consists of a form of 3 fields for username, password, and
 By clicking the "register" button the data will be recorded in the database.
 After completing the form, the user is taken to their own homepage.
 
-![image](https://user-images.githubusercontent.com/78975611/155982061-f16ea72d-e0eb-4b89-bb7b-e8f077473582.png)
+![image](https://user-images.githubusercontent.com/78975611/160450049-c85aa2d0-db23-441c-9351-aa960fb16ff4.png)
+
 
 
 ### login
@@ -22,7 +23,8 @@ After the registration page, i build the login page for returning users. The log
 If the username is not registered or the password is not correct, a message will be shown to inform the user.
 I used the flask_session to keep track of the logged user.
 
-![image](https://user-images.githubusercontent.com/78975611/155981906-014001b0-cdcb-4b41-ab80-8b4278ec2b25.png)
+![image](https://user-images.githubusercontent.com/78975611/155982061-f16ea72d-e0eb-4b89-bb7b-e8f077473582.png)
+
 
 ### index/homepage
 In the homepage, there will be a greeting based on the user's time (Good Morning, Good Afternoon, or Good Evening), followed by the logged-in user's username.
@@ -37,6 +39,9 @@ the entry will now appear in the homepage. The entries is ordered by the tasks w
 When the task is completed, the user can click the "finished" button on the specific entry to move it to the history page. The button will trigger the finished boolean value to True,
 so I can filter out the finished task.
 The second button is to go to the history's page.
+
+![image](https://user-images.githubusercontent.com/78975611/155981906-014001b0-cdcb-4b41-ab80-8b4278ec2b25.png)
+
 
 ### history
 In the history page, the users can see the tasks that they had completed. It is also shown the date of when the task is finished (when the "finished" button is clicked).
