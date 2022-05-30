@@ -5,7 +5,7 @@
 #### This is my [CS50](https://discover.edx.org/xgs/course/introduction-computer-science-harvardx-cs50x?hs-referral=Course-Card&hsLang=en#!) final project.
 For the final project, i decided to build a web application using Flask, Python, HTML, CSS, and JavaScript.
 I wrote the code in Visual Studio Code and i am using SQLalchemy and postgresql to manage the database.
-The purpose of the web app is to keep track of the task that one's need to be done.
+The purpose of the web app is to keep track of the tasks that need to be done.
 
 ### register
 The first page that i made is the registration page, to allow users to use the app individually and privately. By creating a table containing user id, username, and (hashed) password,
